@@ -1,0 +1,92 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bangers', cursive;
+  
+}
+.navbar{
+    background-color: black;
+}
+.container-image{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+   height: 500px;
+   overflow: hidden;
+   background-repeat: no-repeat;
+}
+
+.inputoption{
+    background-color: #e62429;
+    color: white;
+    font-family: 'Bangers', cursive;
+    padding: 7px 7px;
+    border-radius: 10px;
+    font-family: 'Marvel', sans-serif;
+}
+
+.titulo{
+  font-size: 25px;
+  border-color: black;
+  text-shadow: 2px 2px 2px black;
+  text-transform: capitalize;
+  margin-top: 16px;
+  color: white;
+  font-family: 'Bangers', cursive;
+}
+.card{
+  border-radius: 140px;
+ 
+  box-shadow: 2px 2px 4px rgba(33, 33, 33, 0.499);
+}
+.img-thumbnail{
+ 
+height: 200px;
+ 
+  
+}
+
+.img-thumbnail:hover{
+  transform: scale(1.1);
+  transition: 0.5s all ease-out ;
+  cursor: pointer;
+ 
+  
+}
+
+.subtitulo{
+  font-family: 'Bangers', cursive;
+}
+
+footer{
+  margin-top: 120px;
+  padding: 10px;
+  font-family: 'Bangers', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+footer h2{
+  color: white;
+}
+
+footer p {
+  color: red;
+}
+
+#marvel-row{
+  display: none;
+}
+#marvelComics-row{
+  display: none;
+}
+
+.btn{
+  font-family: 'Bangers', cursive;
+}
+#mostrarComics{
+  margin-left: 10px;
+}
+
